@@ -1,0 +1,16 @@
+image_search_app/
+│
+├─ app.py                # Flask 后端入口
+├─ requirements.txt      # Python依赖
+├─ templates/
+│   └─ index.html        # 前端页面
+├─ static/
+│   ├─ css/
+│   │   └─ style.css     # 样式
+│   └─ js/
+│       └─ main.js       # 前端JS逻辑
+├─ scrapers/
+│   ├─ pinterest_scraper.py  # 爬取Pinterest
+│   └─ behance_scraper.py    # 爬取Behance
+└─ cache/
+    └─ results.json          # 搜索缓存（可选）
